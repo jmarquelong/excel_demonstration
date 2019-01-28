@@ -2,6 +2,7 @@ import openpyxl
 
 # Prompts user to pay attention to case.
 print('All inputs are case sensitive!')
+
 # Prints blank line for formatting.
 print(" ")
 
@@ -11,7 +12,6 @@ file_type = '.xlsx'
 concat = file_name + file_type
 wb = openpyxl.load_workbook(concat)
 ws = wb.active
-
 
 # List for display_error function.
 command_list = 'modify, review, titles, get, save,'
