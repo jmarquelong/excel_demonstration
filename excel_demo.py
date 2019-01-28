@@ -15,7 +15,7 @@ ws = wb.active
 
 # List for display_error function.
 command_list = 'modify, review, titles, get, save,'
-sheet_list = [wb.sheetnames]
+
 # Prompts user for input.
 print('Command list: modify, review, titles, get, save.\n'
       'Remember to save after finishing with your changes.')
